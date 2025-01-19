@@ -13,8 +13,7 @@ def get_numbers_ticket(min, max, quantity):
             target = []
             return(target)
     except Exception: 
-        target = []
-        return(target)
+        return []
 lottery_numbers = get_numbers_ticket(10,14,6)
 
 print("Ваші лотерейні числа:", lottery_numbers)
